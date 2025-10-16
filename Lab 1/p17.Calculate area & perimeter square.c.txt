@@ -1,0 +1,19 @@
+//17.Calculate area & perimeter of a square. A = L^2, P = 4L
+#include <stdio.h>
+int main()
+{ int l,a,p;
+
+    printf("Enter the length of side of the square:  ");
+    scanf("%d",&l);
+    p= 4*l;
+    a=l*l;
+    
+    printf("The Area is %d and perimeter is %d of the given square ",a,p);
+   
+    return 0;
+    
+}/*
+
+output Enter the length of side of the square:  50
+The Area is 2500 and perimeter is 200 of the given square 
+*/
