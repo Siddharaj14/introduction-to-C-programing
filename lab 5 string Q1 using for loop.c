@@ -10,6 +10,7 @@ void main()
 
     int i;
     for(i=0;name[i]!='\0';i++);
-        printf("String is %d",i);
+        printf("String length is %d",i);
 }
+
 
